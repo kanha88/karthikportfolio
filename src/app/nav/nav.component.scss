@@ -1,0 +1,147 @@
+.total {
+  width: 400px;
+  height: 105%;
+  margin-top: -20px;
+}
+.photo {
+  transition: 1s;
+  display: block;
+}
+.photo img {
+  border: 5px solid orange;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 1s;
+  margin: 40px 85px 0px 85px;
+}
+.name {
+  color: white;
+  margin-left: 75px;
+  margin-top: 20px;
+  font-family: "Lobster", cursive;
+}
+.post {
+  color: white;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.button {
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.brdr {
+  width: 10px;
+  height: 340px;
+  margin-top: 38px;
+  margin-left: 20px;
+  border: 1px solid orange;
+  background-color: orange;
+  position: absolute;
+}
+.btn {
+  height: 40px;
+  width: 300px;
+  margin: 5px;
+  color: white;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  border: 2px soild orange;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #495457;
+  padding-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  transition: 1s;
+}
+.btn:hover {
+  //background-color: orange;
+  background-image: linear-gradient(to right, orange, white);
+  border: orange;
+  border-width: 0px 0px 0px 2px;
+  color: black;
+}
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover,
+.btn7:hover {
+  width: 320px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+.photo img:hover {
+  margin: 35px 95px 5px 75px;
+  box-shadow: 2px 2px 3px 3px rgb(14, 0, 0), 4px 4px 5px 3px #2c0101,
+    6px 6px 6px 3px #2b0202, 10px 10px 9px 3px #471a1a,
+    10px 10px 9px 10px #5a2c2c;
+
+  border: 5px solid red;
+}
+
+@media screen and (max-width: 480px) {
+  .total {
+    width:100%;
+    //border: 1px solid white;
+  }
+  .brdr {
+    width: 0px;
+    height: 0px;
+    margin-top: 38px;
+    margin-left: -20px;
+    position: absolute;
+  }
+  .photo {
+    transition: 1s;
+    display: block;
+    margin-left: 10%;
+  }
+  .photo img{
+    border: 2px solid orange;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 1s;
+  margin: 40px 85px 0px 85px;
+  }
+
+  .name {
+    color: white;
+    margin-left: 35%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Lobster", cursive;
+    //border: 1px solid white;
+  }
+  .post {
+    color: white;
+    font-size: 15px;
+    margin-left: 28%;
+    margin-top: 5px;
+  }
+  .button {
+    margin-top: 10px;
+    margin-left: 8%;
+
+  }
+  .btn {
+    border-radius: 10px;
+    height: 25px;
+    width: 300px;
+    font-size: 15px;
+   padding-top: 1px; 
+  }
+  .btn:hover{
+    width: 320px;
+    font-size: 15px;
+    color: black;
+    padding-top: 1px;
+    margin-left: -5px;
+  }
+}

@@ -1,0 +1,330 @@
+.total {
+  height: 100%;
+  width: 1050px;
+  margin-left: 35px;
+  color: white;
+}
+.heading {
+  font-size: 40px;
+  margin-top: 60px;
+  margin-left: 400px;
+  font-family: "Fredoka One", cursive;
+  color: white;
+}
+.heading span {
+  color: orange;
+}
+hr {
+  background-color: white;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  padding-left: 8px;
+  padding-top: 5px;
+  font-size: 25px;
+  background-color: orange;
+  border-radius: 25px;
+  padding-left: 16px;
+}
+.line {
+  width: 2px;
+  height: 150px;
+  background-color: white;
+  margin-top: 1px;
+  margin-left: 23px;
+  position: absolute;
+}
+.date {
+  height: 20px;
+  width: 150px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #495457;
+  margin-left: 80px;
+  margin-top: -30px;
+}
+
+.exp1 {
+  width: 500px;
+  height: 100%;
+  margin-top: 20px;
+  height: 250px;
+  width: 500px;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #161a1d;
+}
+.name1 {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.name1 span {
+  font-size: 15px;
+  font-family: "Fredoka One", cursive;
+}
+.content1 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.exp2 {
+  margin-left: 150px;
+  margin-top: 40px;
+  height: 250px;
+  width: 500px;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #161a1d;
+}
+.date2 {
+  width: 200px;
+}
+.name2 {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.name2 span {
+  font-size: 15px;
+  font-family: "Fredoka One", cursive;
+}
+.content2 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.exp3 {
+  height: 100%;
+  margin-top: 40px;
+  margin-left: 300px;
+  height: 250px;
+  width: 500px;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #161a1d;
+}
+.line3 {
+  height: 150px;
+}
+.name3 {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.name3 span {
+  font-size: 15px;
+  font-family: "Fredoka One", cursive;
+}
+.date3 {
+  width: 200px;
+}
+.content3 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.exp4 {
+  margin-left: 300px;
+  margin-top: 40px;
+  height: 250px;
+  width: 500px;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #161a1d;
+}
+.date4 {
+  width: 200px;
+}
+.line4 {
+  height: 140px;
+}
+.name4 {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.name4 span {
+  font-size: 15px;
+  font-family: "Fredoka One", cursive;
+}
+.content4 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.exp5 {
+  height: 100%;
+  margin-top: 40px;
+  margin-left: 150px;
+  height: 240px;
+  width: 500px;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #161a1d;
+}
+.name5 {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.name5 span {
+  font-size: 15px;
+  font-family: "Fredoka One", cursive;
+}
+.date5 {
+  width: 200px;
+}
+.content5 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.line5 {
+  height: 130px;
+}
+
+.exp6 {
+  margin-top: 40px;
+  height: 230px;
+  width: 500px;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #161a1d;
+}
+.date6 {
+  width: 200px;
+}
+.name6 {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.name6 span {
+  font-size: 15px;
+  font-family: "Fredoka One", cursive;
+}
+.content6 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.line6 {
+  height: 130px;
+}
+
+.exp1:hover,
+.exp2:hover,
+.exp3:hover,
+.exp4:hover,
+.exp5:hover,
+.exp6:hover {
+  box-shadow: 2px 2px 3px 3px rgb(14, 0, 0), 4px 4px 5px 3px #2c0101,
+    6px 6px 6px 3px #2b0202, 10px 10px 9px 3px #471a1a,
+    10px 10px 9px 10px #5a2c2c, 15px 15px 14px 15px black;
+  .circle {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .total {
+    width: 100%;
+    margin: -40px 0px 0px 10px;
+    font-size: 12px;
+    //border: 1px solid white;
+  }
+  .heading {
+    margin-left: 120px;
+    font-size: 20px;
+  }
+  hr {
+    width: 100%;
+    margin-left: -5px;
+  }
+  .circle {
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    padding: 1px 0px 0px 8px;
+    margin: -15px 0px 0px -15px;
+  }
+  .date {
+    margin: -25px 0px 0px 30px;
+  }
+  .line1 {
+    margin-left: 0px;
+    height: 135px;
+  }
+  .name1,
+  .name2,
+  .name3,
+  .name4,
+  .name5,
+  .name6,
+  .content1,
+  .content2,
+  .content3,
+  .content4,
+  .content5,
+  .content6 {
+    margin-left: 35px;
+  }
+  .exp1 {
+    margin-left: -10px;
+    width: 380px;
+    height: 190px;
+  }
+
+  .exp2 {
+    margin-left: -10px;
+    width: 380px;
+    height: 180px;
+  }
+  .line2 {
+    margin-left: 1px;
+    height: 130px;
+  }
+  .exp3 {
+    margin-left: -10px;
+    width: 380px;
+    height: 185px;
+  }
+  .line3 {
+    margin-left: 1px;
+    height: 135px;
+  }
+  .exp4 {
+    margin-left: -10px;
+    width: 380px;
+    height: 160px;
+  }
+  .line4{
+    margin-left: 1px;
+    height: 110px;
+  }
+  .exp5 {
+    margin-left: -10px;
+    width: 380px;
+    height: 190px;
+  }
+  .line5{
+    margin-left: 1px;
+    height: 135px;
+  }
+  .exp6 {
+    margin-left: -10px;
+    width: 380px;
+    height: 190px;
+  }
+  .line6{
+    margin-left: 1px;
+    height: 135px;
+  }
+}

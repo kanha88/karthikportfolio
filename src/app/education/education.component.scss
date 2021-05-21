@@ -1,0 +1,158 @@
+.total {
+  height: 100%;
+  width: 1050px;
+  margin-left: 40px;
+  color: white;
+}
+.heading {
+  font-size: 40px;
+  margin-top: 60px;
+  margin-left: 400px;
+  font-family: "Fredoka One", cursive;
+  color: white;
+}
+.heading span {
+  color: orange;
+}
+hr {
+  background-color: white;
+}
+.circle {
+  font-size: 25px;
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  padding: 5px 0px 0px 10px;
+  border-radius: 50%;
+}
+.line {
+  width: 2px;
+  height: 130px;
+  background-color: white;
+  margin-left: 23px;
+  position: absolute;
+}
+.yr {
+  height: 20px;
+  width: 60px;
+  background-color: #495057;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-top: -35px;
+  justify-content: center;
+  text-align: center;
+}
+
+.sec1 {
+  margin: 20px;
+  height: 240px;
+  width: 700px;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #161a1d;
+}
+.text {
+  font-size: 15px;
+  margin-top: -10px;
+  margin-left: 80px;
+}
+.text span {
+  font-size: 15px;
+  font-family: "Fredoka One", cursive;
+}
+
+.sec2 {
+  margin-top: 40px;
+  margin-left: 150px;
+  height: 200px;
+  width: 700px;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #161a1d;
+}
+.line2,
+.line3 {
+  height: 110px;
+}
+
+.sec3 {
+  margin-top: 40px;
+  margin-left: 300px;
+  height: 200px;
+  width: 700px;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 1s;
+  background-color: #161a1d;
+}
+
+.sec1:hover,
+.sec2:hover,
+.sec3:hover {
+  box-shadow: 2px 2px 3px 3px rgb(14, 0, 0), 4px 4px 5px 3px #2c0101,
+    6px 6px 6px 3px #2b0202, 10px 10px 9px 3px #471a1a,
+    10px 10px 9px 10px #5a2c2c, 15px 15px 14px 15px black;
+  .circle {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .total{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  hr{
+    margin-right: 15px;
+  }
+  .heading{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 110px;
+  }
+  .sec1{
+    margin-left: 0px;
+    width: 90%;
+    height: 240px;
+  }
+  .circle{
+    height: 30px;
+    width: 30px;
+    font-size: 17px;
+    padding: 1px 0px 0px 5px;
+  margin-left: -15px;
+  margin-top: -10px;
+  }
+  .line{
+    margin-left: 1px;
+    height: 180px;
+  }
+  .yr{
+    margin-left: 50px;
+    margin-top: -25px;
+height: 22px;
+  }
+  .text{
+    margin-left: 50px;
+    margin-top: -20px;
+  }
+  .sec2{
+    margin-left: 0px;
+    width: 90%;
+    height: 210px;
+  }
+  .line2{
+    height: 155px;
+  }
+  .sec3{
+    width: 90%;
+    margin-left: 0px;
+    height: 210px;
+  }
+  .line3{
+    height: 155px;
+  }
+}

@@ -1,0 +1,122 @@
+.total {
+  height: 100%;
+  width: 70vw;
+  margin-left: 25px;
+}
+
+.heading {
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 450px;
+  font-family: "Fredoka One", cursive;
+  color: white;
+}
+.heading span {
+  color: orange;
+  font-family: "Fredoka One", cursive;
+}
+hr {
+  background-color: white;
+}
+.details {
+  color: white;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 150px;
+  line-height: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+.details span {
+  color: orange;
+}
+.line1 span {
+  color: orange;
+}
+.line1 .sec1 {
+  border: 2px solid black;
+  background-color: #495057;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: -200px;
+  margin-left: 700px;
+}
+.line1 .sec2 {
+  border: 2px solid black;
+  background-color: #495057;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 700px;
+}
+.download {
+  width: 130px;
+  height: 40px;
+  padding: 9px;
+  color: white;
+  margin-left: 150px;
+  margin-top: -30px;
+  font-size: 15px;
+  background-color: #495057;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .total {
+    width: 100%;
+    //border: 1px solid white;
+  }
+  hr{
+    margin-left: -15px;
+  }
+  .heading {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-family: "Fredoka One", cursive;
+    color: white;
+  }
+  .details {
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 60px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .line1 .sec1 {
+    border: 2px solid black;
+    background-color: #495057;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .line1 .sec2 {
+    border: 2px solid black;
+    background-color: #495057;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -93px;
+    margin-left: 190px;
+  }
+  .download {
+    width: 100px;
+    height: 30px;
+    padding-top: 7px;
+    padding-left: 15px;
+    margin-left: 120px;
+    margin-top: 15px;
+    font-size: 10px;
+  }
+}
